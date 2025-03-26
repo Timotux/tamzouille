@@ -7,15 +7,21 @@ p,li{
 
 .main-nav-menu ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 2px solid black;
     height: 30vh;
+    width: 100%;
+    padding: 0;
 }
 
 .main-nav-menu ul li{
     list-style-type: none;
     font-weight: bolder;
     border-right: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .nav-li-1{

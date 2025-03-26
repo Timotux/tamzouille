@@ -1,8 +1,11 @@
-p,li{
-    font-family:"Comic Neue";
-    font-size : 1.1em;
-    text-align: left;
-    color: black;
+p{
+    font-size: 3em;
+    
+}
+
+.paragraphe{
+    background-color:rgba(253, 251, 251, 0.3);
+     
 }
 
 .main-nav-menu ul{
@@ -74,4 +77,10 @@ p,li{
     color:red;
     justify-content: flex-start;
     font-weight: bolder;
+}
+
+.body-home{
+    background-image: url(src/Tamal.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
 }

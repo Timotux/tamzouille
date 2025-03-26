@@ -9,7 +9,7 @@ p,li{
     display: flex;
     justify-content: space-around;
     border: 2px solid black;
-    height: 30vh;
+    height: 15vh;
 }
 
 .main-nav-menu ul li{

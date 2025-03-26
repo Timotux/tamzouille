@@ -4,7 +4,13 @@ p,li{
     text-align: left;
     color: black;
 }
+.body-home{
 
+    background-image: url(src/Tamal.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+/* Nav */
 .main-nav-menu ul{
     display: flex;
     justify-content: space-between;

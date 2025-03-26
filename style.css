@@ -1,0 +1,12 @@
+p{
+    font-family:"Comic Neue";
+    font-size : 1.1em;
+    text-align: left;
+    color: black;
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }

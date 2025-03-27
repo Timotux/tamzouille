@@ -1,0 +1,55 @@
+/* Soldes image */
+.solde-box .solde-img span{
+    position: absolute; 
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+    z-index: 1;
+}
+.relative {
+    position: relative;
+    left: 50%;
+    margin-left: -37.5px;
+}
+.big-rosace {
+    width: 225px;
+    height: 225px;
+}
+
+.big-rosace::after,
+.big-rosace::before {
+    height: 225px;
+    width: 225px;
+}
+
+.big-rosace {
+    position: absolute;
+    margin: 50px auto;
+    background: yellow;
+    text-align: center;
+}
+
+.big-rosace::before,
+.big-rosace::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+}
+
+.big-rosace::before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+
+.big-rosace::after {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
